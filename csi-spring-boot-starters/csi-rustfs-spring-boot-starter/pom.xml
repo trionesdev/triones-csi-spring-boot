@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.trionesdev.csi</groupId>
         <artifactId>csi-spring-boot-starters</artifactId>
-        <version>3.0.3-SNAPSHOT</version>
+        <version>3.0.4-SNAPSHOT</version>
     </parent>
     <name>Triones:CSI:Boot:SelfHosted:RustFS</name>
     <artifactId>csi-rustfs-spring-boot-starter</artifactId>
