@@ -5,24 +5,24 @@
 ## 模块
 
 - 阿里云
-    - [OSS 对象存储](csi-spring-boot-starters/csi-aliyun-oss-spring-boot-starter)
-    - [SMS 短信服务](csi-spring-boot-starters/csi-aliyun-sms-spring-boot-starter)
+    - [OSS 对象存储](spring-boot-starters/spring-boot-starter-csi-aliyun-oss)
+    - [SMS 短信服务](spring-boot-starters/spring-boot-starter-csi-aliyun-sms)
 - 腾讯云
-    - [COS 对象存储](csi-spring-boot-starters/csi-tencentcloud-cos-spring-boot-starter)
-    - [SMS 短信服务](csi-spring-boot-starters/csi-tencentcloud-sms-spring-boot-starter)
-    - [SES 邮件服务](csi-spring-boot-starters/csi-tencentcloud-ses-spring-boot-starter)
-    - [OCR 文本识别](csi-spring-boot-starters/csi-tencentcloud-ocr-spring-boot-starter)
+    - [COS 对象存储](spring-boot-starters/spring-boot-starter-csi-tencentcloud-cos)
+    - [SMS 短信服务](spring-boot-starters/spring-boot-starter-csi-tencentcloud-sms)
+    - [SES 邮件服务](spring-boot-starters/spring-boot-starter-csi-tencentcloud-ses)
+    - [OCR 文本识别](spring-boot-starters/spring-boot-starter-csi-tencentcloud-ocr)
 - 华为云
-    - [OBS 对象存储](csi-spring-boot-starters/csi-huaweicloud-obs-spring-boot-starter)
-    - [SMS 短信服务](csi-spring-boot-starters/csi-huaweicloud-sms-spring-boot-starter)
+    - [OBS 对象存储](spring-boot-starters/spring-boot-starter-csi-huaweicloud-obs)
+    - [SMS 短信服务](spring-boot-starters/spring-boot-starter-csi-huaweicloud-sms)
 - 七牛云
-    - [KODO 对象存储](csi-spring-boot-starters/csi-qiniu-kudo-spring-boot-starter)
+    - [KODO 对象存储](spring-boot-starters/spring-boot-starter-csi-qiniu-kudo)
 - 微软云
-    - [BLOB 块存储](csi-spring-boot-starters/csi-azure-blob-spring-boot-starter)
+    - [BLOB 块存储](spring-boot-starters/spring-boot-starter-csi-azure-blob)
 
 - 自部署服务
-    - [Minio](csi-spring-boot-starters/csi-minio-spring-boot-starter)
-    - [Rustfs](csi-spring-boot-starters/csi-rustfs-spring-boot-starter)
+    - [Minio](spring-boot-starters/spring-boot-starter-csi-minio)
+    - [Rustfs](spring-boot-starters/spring-boot-starter-csi-rustfs)
 
 ## 使用
 
@@ -33,7 +33,7 @@
     <dependencies>
         <dependency>
             <groupId>com.trionesdev.csi</groupId>
-            <artifactId>csi-spring-boot-dependencies</artifactId>
+            <artifactId>dependencies</artifactId>
             <version>版本号</version>
             <type>pom</type>
             <scope>import</scope>

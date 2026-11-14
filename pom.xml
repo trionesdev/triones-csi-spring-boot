@@ -8,13 +8,10 @@
     <artifactId>csi-spring-boot</artifactId>
     <packaging>pom</packaging>
     <version>3.0.4-SNAPSHOT</version>
-    <name>Triones:CloudServiceIntegrations:SpringBoot</name>
+    <name>Triones:CSI:SpringBoot</name>
     <modules>
-
-        <module>csi-spring-boot-dependencies</module>
-        <module>csi-spring-boot-starters</module>
-
-
+        <module>spring-boot-dependencies</module>
+        <module>spring-boot-starters</module>
     </modules>
 
     <properties>
