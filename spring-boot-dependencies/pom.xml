@@ -6,10 +6,11 @@
     <parent>
         <groupId>com.trionesdev.csi</groupId>
         <artifactId>csi-spring-boot</artifactId>
-        <version>3.0.4-SNAPSHOT</version>
+        <version>3.0.5-SNAPSHOT</version>
     </parent>
 
     <artifactId>spring-boot-dependencies</artifactId>
+    <packaging>pom</packaging>
     <name>Triones:CSI:SpringBoot:Dependencies</name>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

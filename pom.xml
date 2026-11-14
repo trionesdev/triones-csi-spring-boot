@@ -7,7 +7,7 @@
     <groupId>com.trionesdev.csi</groupId>
     <artifactId>csi-spring-boot</artifactId>
     <packaging>pom</packaging>
-    <version>3.0.4-SNAPSHOT</version>
+    <version>3.0.5-SNAPSHOT</version>
     <name>Triones:CSI:SpringBoot</name>
     <modules>
         <module>spring-boot-dependencies</module>

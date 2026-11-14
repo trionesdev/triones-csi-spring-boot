@@ -33,7 +33,7 @@
     <dependencies>
         <dependency>
             <groupId>com.trionesdev.csi</groupId>
-            <artifactId>dependencies</artifactId>
+            <artifactId>spring-boot-dependencies</artifactId>
             <version>版本号</version>
             <type>pom</type>
             <scope>import</scope>
@@ -50,3 +50,11 @@
 <div style="text-align: center">
 <img src="images/shuque_wx.jpg" width="200px" alt="">
 </div>
+
+### 更新项目版本
+
+各子模块继承根 POM 的版本，请在项目根目录执行（将版本号替换为目标版本）：
+
+```shell
+mvn -N -f pom.xml versions:set -DnewVersion=3.0.5-SNAPSHOT -DprocessAllModules=true -DgenerateBackupPoms=false
+```
